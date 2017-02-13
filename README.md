@@ -1,4 +1,4 @@
-WeUI Design for WeChat Web Service  
+WeUI - Design for WeChat Web Service  
 ====
 
 [![Build Status](https://travis-ci.org/weui/weui.svg?branch=master)](https://travis-ci.org/weui/weui)
