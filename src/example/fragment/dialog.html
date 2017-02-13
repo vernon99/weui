@@ -1,13 +1,13 @@
 <div class="page">
     <div class="page__hd">
         <h1 class="page__title">Dialog</h1>
-        <p class="page__desc">对话框</p>
+        <p class="page__desc">display task information with text and controls, require user action</p>
     </div>
     <div class="page__bd page__bd_spacing">
-        <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog1">iOS Dialog样式一</a>
-        <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog2">iOS Dialog样式二</a>
-        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog1">Android Dialog样式一</a>
-        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">Android Dialog样式二</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog1">iOS Dialog Prompt</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog2">iOS Dialog Confirm</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog1">Android Dialog Prompt</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">Android Dialog Confirm</a>
     </div>
     <div class="page__ft">
         <a href="javascript:home()"><img src="./images/icon_footer_link.png" /></a>
@@ -18,11 +18,11 @@
         <div class="js_dialog" id="iosDialog1" style="display: none;">
             <div class="weui-mask"></div>
             <div class="weui-dialog">
-                <div class="weui-dialog__hd"><strong class="weui-dialog__title">弹窗标题</strong></div>
-                <div class="weui-dialog__bd">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</div>
+                <div class="weui-dialog__hd"><strong class="weui-dialog__title">Dialog Title</strong></div>
+                <div class="weui-dialog__bd">Content to display status/info/solution, should be less than 3 lines</div>
                 <div class="weui-dialog__ft">
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">辅助操作</a>
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">主操作</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">Cancel</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">Confirm</a>
                 </div>
             </div>
         </div>
@@ -31,9 +31,9 @@
         <div class="js_dialog" id="iosDialog2" style="display: none;">
             <div class="weui-mask"></div>
             <div class="weui-dialog">
-                <div class="weui-dialog__bd">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</div>
+                <div class="weui-dialog__bd">Content to display status/info/solution, should be less than 3 lines</div>
                 <div class="weui-dialog__ft">
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">知道了</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">Confirm</a>
                 </div>
             </div>
         </div>
@@ -42,13 +42,13 @@
         <div class="js_dialog" id="androidDialog1" style="display: none;">
             <div class="weui-mask"></div>
             <div class="weui-dialog weui-skin_android">
-                <div class="weui-dialog__hd"><strong class="weui-dialog__title">弹窗标题</strong></div>
+                <div class="weui-dialog__hd"><strong class="weui-dialog__title">Dialog Title</strong></div>
                 <div class="weui-dialog__bd">
-                    弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内
+                    Content to display status/info/solution, should be less than 3 lines
                 </div>
                 <div class="weui-dialog__ft">
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">辅助操作</a>
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">主操作</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">Cancel</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">Confirm</a>
                 </div>
             </div>
         </div>
@@ -58,11 +58,11 @@
             <div class="weui-mask"></div>
             <div class="weui-dialog weui-skin_android">
                 <div class="weui-dialog__bd">
-                    弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内
+                    Content to display status/info/solution, should be less than 3 lines
                 </div>
                 <div class="weui-dialog__ft">
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">辅助操作</a>
-                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">主操作</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">Cancel</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">Confirm</a>
                 </div>
             </div>
         </div>
